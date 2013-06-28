@@ -25,7 +25,7 @@ class Adder():
             try:
                 del self.data[args[0]]
             except:
-                print "key '"+ args[0] + "' does not exist!"
+                print "alias '"+ args[0] + "' does not exist!"
             return
 
         self.data[args[0]] = args[1]
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     parser = optparse.OptionParser()
     options, args = parser.parse_args()
     if len(args) > 2 or len(args) < 1:
-        print "Usage: add name [value]"
+        print "Usage: add alias [text]"
         exit(0)
     adder = Adder()
     adder.process(args)

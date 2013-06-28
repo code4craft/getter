@@ -1,16 +1,21 @@
 getter
 -------
-A tool for manage text for shell. Save alias for text in ~/.getrc and lookup easily.
+A tool for manage text in alias for shell. 
 
-### Install:
+### About
 
-	git clone https://github.com/code4craft/getter.git
-	ln -s path-of-repo/getter.py /usr/local/bin/get
-	ln -s path-of-repo/adder.py /usr/local/bin/add
+Written in two language with little difference:
+
+#### Python
+
+[https://github.com/code4craft/getter/python](https://github.com/code4craft/getter/python)
+
+Save all text and alias in ~/.getrc. No command complement.
+
+#### Shell
+
+[https://github.com/code4craft/getter/shell](https://github.com/code4craft/getter/shell)
+
+Save each alias-text pair in /usr/local/getter/ with -alias as filename. This file is executable so you can call it directly with command complement.
 	
-### Usage:
-	
-	add name value
-	get name
-
 Enjoy it!
