@@ -12,7 +12,7 @@ else
         rm -f $FILE_NAME
     else
         echo "#!/bin/sh" > $FILE_NAME
-        echo "$2" >> $FILE_NAME
+        echo "$2 \$1 \$2 \$3" >> $FILE_NAME
         chmod +x $FILE_NAME
     fi
 fi
