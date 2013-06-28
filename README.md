@@ -16,6 +16,6 @@ Save all text and alias in ~/.getrc. No command complement.
 
 [https://github.com/code4craft/getter/tree/master/shell](https://github.com/code4craft/getter/tree/master/shell)
 
-Save each alias-text pair in /usr/local/getter/ with -alias as filename. This file is executable so you can call it directly with command complement.
+Save each alias-text pair in /usr/local/getter/ as a file with -alias as filename. This file is executable so you can call it directly with command complement.
 	
 Enjoy it!
